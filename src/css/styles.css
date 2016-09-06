@@ -1,0 +1,146 @@
+/********************Header Section********************/
+
+.jumbotron{
+color: #FFFFFF;
+background-color:#212121;
+opacity: .9;
+text-shadow: 1px 1px 2px black, 0 0 25px #262626, 0 0 5px #1a1a1a;
+}
+
+/********************Body Section********************/
+
+body {
+	font-family: 'Oswald', sans-serif;
+	/*background-color: #f2f2f2;*/
+}
+
+#entireBody {
+	background-image: url('/todo_list.jpg');
+}
+
+.form-actions {
+	margin:0 auto;
+	padding: 0 auto;
+	text-align: center;
+}
+
+/********************User Input Section********************/
+
+#button {
+	width: 240px;
+	color: #fff;
+    background-color: #d50000;
+    border-color: #d50000 ;
+
+}
+
+#button:hover {
+    background-color: #b71c1c;
+}
+
+#input {
+	background-color: #ffffff;
+}
+
+#taskPriority {
+	box-shadow: 10px 10px 5px #616161;
+	background-color: #212121;
+	color: #fff;
+}
+
+#buttonSubmit {
+	margin: 10px auto 10px;
+	padding:5px 15px; 
+	background:#212121; 
+}
+
+/********************Footer Section********************/
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: #212121;
+  opacity: .9;
+  color: #fff;
+  text-shadow: 1px 1px 2px black, 0 0 25px #262626, 0 0 5px #1a1a1a;
+}
+
+/********************Buttons Section********************/
+
+#buttonGroup {
+	margin: 10px auto;
+	box-shadow: 10px 10px 5px #616161;
+	background-color: #d50000;
+}
+
+#byHighest {
+	background-color: #d50000;
+	border-color: #d50000;
+}
+
+#byHighest:hover {
+	background-color: #b71c1c;
+	color: #fff;
+}
+
+#lowest {
+	background-color: #d50000;
+	border-color: #d50000;
+}
+
+#lowest:hover {
+	background-color: #b71c1c;
+	color: #fff;
+}
+
+
+#alphabetically {
+	background-color: #d50000;
+	border-color: #d50000;
+}
+
+#alphabetically:hover {
+	background-color: #b71c1c;
+	color: #fff;
+}
+
+.btn-default {
+	color: #fff;
+}
+
+/********************List of ToDo's Section********************/
+
+.list-group-item-info {
+	background-color: #00acc1;
+	color: #fff;
+}
+
+.list-group-item-warning {
+	background-color: #ff9100;
+	color: #fff;
+}
+
+.list-group-item-danger {
+	background-color: #f44336;
+	color: #fff;
+}
+
+#tableData {
+	opacity: .8;
+}
+
+
+#delete {
+	float: right;
+	background-color: transparent;
+}	
+
+#pencil {
+	float: right;
+	margin-right: 10px;
+	background-color: transparent;
+}
